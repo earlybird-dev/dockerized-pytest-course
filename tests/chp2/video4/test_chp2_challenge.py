@@ -15,6 +15,3 @@ def test_invalid_point_generation():
     with pytest.raises(ValueError) as exp:
         Point(123, 14.7167, 17.4677)
     assert str(exp.value) == "City name provided must be a string"
-
-def test():
-    pass
